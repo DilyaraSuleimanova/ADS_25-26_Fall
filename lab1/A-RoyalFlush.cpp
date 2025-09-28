@@ -18,7 +18,7 @@ int main(){
     int t;
     cin >> t;
 
-    while (t--) {
+    while (t != 0) {
         int n;
         cin >> n;
 
@@ -39,6 +39,7 @@ int main(){
         }
         cout << endl;
 
+        t--;
     }
     
 }
